@@ -162,6 +162,7 @@ class ThirdPage extends StatelessWidget {
     final args = ModalRoute.of(context)!.settings.arguments as Data;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 246, 189, 189),
         title: Text(''),
       ),
       body: Column(
